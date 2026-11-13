@@ -1,0 +1,2 @@
+{% extends "base.html" %}{% block title %}Create account — VeritasAI{% endblock %}{% block content %}<div class="auth card"><div class="eyebrow">PRIVATE WORKSPACE</div><h1>Create account</h1><form method="post">{% csrf_token %}{{ form.as_p }}<button class="button" type="submit">Create account</button></form><p>Already registered? <a href="{% url 'accounts:login' %}">Sign in</a>.</p></div>{% endblock %}
+
