@@ -1,6 +1,6 @@
 # VeritasAI
 
-VeritasAI is a Django application for video deepfake research. The initial release implements the required **ResNeXt50 feature extractor + ordered LSTM classifier** and deliberately refuses to produce a detection result until a valid trained checkpoint is configured.
+VeritasAI is a Django application for video And image deepfake research. The initial release implements the required **ResNeXt50 feature extractor + ordered LSTM classifier** and deliberately refuses to produce a detection result until a valid trained checkpoint is configured.
 
 ## Architecture
 
