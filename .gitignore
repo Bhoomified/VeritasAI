@@ -33,3 +33,12 @@ reports/
 # Operating system
 .DS_Store
 Thumbs.db
+
+# VeritasAI research artefacts (keep out of Git)
+faces/
+feats/
+report/
+results.csv
+ml/weights/
+*.onnx
+*.npz
